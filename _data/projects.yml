@@ -6,4 +6,21 @@
   role: Developer
   duration: 2016 &mdash; 2017
   url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116158&language=ko_KR 
+  description: SSD는 HDD와 다르게 덮어쓰기가 불가능하고, 읽기/쓰기 단위와 삭제의 단위가 다르다는 특징이 있다. 이러한 특징으로 인해 SSD는 플래시 변환 계층을 필요로 한다. 플래시 변환 계층의 알고리즘은 SSD 성능에 큰 영향을 미친다. 본 연구에서는 파티션이라는 개념을 도입하여 메모리 사이즈를 줄인 IOPM을 제안한다
+
+- project: Optimizing RocksDB for Better Read Throughput in Blockchain Systems
+  role: Developer
+  duration: 2018 &mdash; 2019
+  url: https://ieeexplore.ieee.org/abstract/document/8974829
+  description: 블록 체인 workload 에 대한 RocksDB 읽기 동작의 최적화를 목표로 한다. 먼저 블록 체인 workload 의 특성을 관찰하고 RocksDB 아키텍처를 확인한다. 블록 체인 workload 특성 및 RocksDB 아키텍처에 대한 관찰 결과를 바탕으로, 병렬 읽기와 읽기 Disk IO 를 줄이기 위한 두 가지 최적화 기법을 제안한다. 특히, 첫 번째 최적화 기법은 플래시 스토리지에서의 병렬 처리 기술을 사용할 수 있기 때문에, 플래시 스토리지에서 매우 효과적이다. 본 논문에서 제안한 최적화 기법을 적용하는 경우, 기본 설정이 적용된 RocksDB 와 비교하여 블록 체인 벤치 마크의 읽기 처리량을 최대 30 배 이상 증가시킬 수 있음을 실험을 통해 확인하였다. 
+
+- project: Notiman, the notification module in LINE Timeline platform
+  role: Developer 
+  duration: 2017 &mdash; 2018
   description: 
+
+- project: LADM, the CMS for LINE DSP
+  role: Developer 
+  duration: 2018 &mdash; Present
+  description: 
+

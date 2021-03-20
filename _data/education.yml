@@ -3,14 +3,16 @@
   uni: Sungkyunkwan University
   year: 2016.09 &mdash; 2020.01
   awards:
-    - award: 제 43회 동계학술발표회 우수발표논문상 수상
-    - award: Optimizing RocksDB for Better Read Throughput in Blockchain Systems, 2020
-    - award: 메모리 제약을 위한 순서 증가 페이지 매핑 FTL 기법, 2016 
+    - award: (Award) 제 43회 동계학술발표회 우수발표논문상 수상
+    - award: (Paper) Optimizing RocksDB for Better Read Throughput in Blockchain Systems, 2020
+    - award: (Paper) 메모리 제약을 위한 순서 증가 페이지 매핑 FTL 기법, 2016 
+    - award: (Patent) 플래시 메모리를 이용한 메모리 관리 시스템 및 메모리 관리 방법 (kr 10-2017-0101150)
+
 - degree: Bachelor of Software
   uni: Sungkyunkwan University
   year: 2013.03 &mdash; 2016.08
   awards:
-    - award: 2014년 성균관대학교 융합모바일앱 공모전 우수상
+    - award: (Award) 2014년 성균관대학교 융합모바일앱 공모전 우수상
 
 - degree: High School Diploma
   uni: Daejeon Science HighSchool
