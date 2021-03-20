@@ -4,7 +4,8 @@
   year: 2016.09 &mdash; 2020.01
   awards:
     - award: 제 43회 동계학술발표회 우수발표논문상 수상
-
+    - award: Optimizing RocksDB for Better Read Throughput in Blockchain Systems, 2020
+    - award: 메모리 제약을 위한 순서 증가 페이지 매핑 FTL 기법, 2016 
 - degree: Bachelor of Software
   uni: Sungkyunkwan University
   year: 2013.03 &mdash; 2016.08
