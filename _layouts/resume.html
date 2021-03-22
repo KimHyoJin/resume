@@ -87,8 +87,13 @@
           {% for award in education.awards %}
           <li>{{ award.award }}</li>
           {% endfor %}
+          {% for paper in education.papers %}
+          <li>{{ paper.paper }}</li>
+          {% endfor %}
+          {% for patent in education.patents %}
+          <li>{{ patent.patent }}</li>
+          {% endfor %}
         </ul>
-
 
         <p class="resume-item-copy">{{ education.summary }}</p>
       </div>
@@ -112,6 +117,7 @@
             project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
         <h4 class="resume-item-details" itemprop="description">{{ project.role }} &bull; {{ project.duration }}</h4>
         <p class="resume-item-copy">{{ project.description }}</p>
+        <p class="resume-item-copy">Skill Set : {{ project.skill }}</p>
       </div>
       {% endfor %}
 
@@ -136,6 +142,27 @@
     </section>
     <!-- end Skills -->
     {% endif %}
+
+    {% if site.resume_section_troubleshooting %}
+    <!-- begin TroubleShooting -->
+    <section class="content-section">
+
+      <header class="section-header">
+        <h2>TroubleShootings</h2>
+      </header>
+      {% for skill in site.data.troubleshooting%}
+      <div class="resume-item">
+        <h4 class="resume-item-details">{{ skill.skill }}</h4>
+        <p class="resume-item-copy">{{ skill.description }}</p>
+      </div>
+      {% endfor %}
+
+    </section>
+    <!-- end TroubleShooting -->
+    {% endif %}
+
+
+
 
     {% if site.resume_section_recognition %}
     <!-- begin Recognition -->
