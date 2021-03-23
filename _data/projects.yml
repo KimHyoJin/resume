@@ -16,18 +16,18 @@
 - project: Notiman, the notification module in LINE Timeline platform
   role: Developer 
   duration: 2017 &mdash; 2018
-  description: New technology can be used while re-newal of the notification module is in progress.
-  skill: Spring Webflux, MySQL, MyBatis, Kafka, Redis
+  description: New technology like Spring Webflux can be used while re-newal of the notification module is in progress. Implement the alert system for project using Grafana and Prometheus with push gateway.
+  skill: Spring Webflux, MySQL, MyBatis, Kafka, Redis, Grafana, Prometheus, Docker with Orchestration.
 
 - project: LADM, the CMS for LINE DSP
   role: Developer 
   duration: 2018 &mdash; Present
-  description: By using JPA, the JAVA standard of ORM, the degree of understanding is improved. By developing the DSP CMS of LINE Advertising System, I can collaborate with various departments and gain knowledge about domains.
-  skill : Spring MVC, MySQL, MyBatis, Kafka, Redis, JPA
+  description: By using JPA, the Java standard of ORM, the degree of understanding is improved. By developing the DSP CMS of LINE Advertising System, I can collaborate with various departments and gain knowledge about domains.
+  skill : Spring MVC, MySQL, MyBatis, Kafka, Redis, JPA, Spring gateway.
 
 - project: Luda, Wedding Registry Platform
   role: Server Developer 
   duration: 2020 &mdash; Present
-  description: Toy project. Understanding of spring security has been improved, and functions provided by aws or git can be used in addition to the in-house dedicated tools that can be used in-house.
-  skill: Spring MVC, PostgresQL, MyBatis, Gradle, AWS, Git Actions, Spring security
+  description: Toy project. Understanding of Spring security has been improved by using OAuth for integrating the 3rd party Oauth systems. Functions provided by AWS or Git can be used instead of company's inside tools. 
+  skill: Spring MVC, PostgresQL, MyBatis, Gradle, AWS, Git Actions, Spring security.
 
